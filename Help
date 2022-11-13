@@ -1,0 +1,21 @@
+import random
+
+from random import randrange
+
+LowerLeg = 1
+UpperLeg = 100
+
+
+def Range_(LowerLeg: int, UpperLeg: int):
+    Range_(randrange(LowerLeg, UpperLeg))
+
+
+def user_number():
+    input('choose what number you think it could be!')
+
+
+def TooHigh():
+    print('TooHigh')
+
+def TooLow():
+    print('TooLow')
