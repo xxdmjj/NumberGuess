@@ -24,9 +24,10 @@ def TooLow():
     print('TooLow')
 
 
-user_number()
-if user_number() > Range_():
-    TooHigh()
-else:
-    TooLow()
+num = user_number()
 
+
+if num > Range_(): TooLow(): 
+    elif num < Range_() TooHigh():
+
+else print("Number guessed correctly")
